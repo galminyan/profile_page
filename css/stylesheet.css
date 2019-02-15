@@ -1,0 +1,194 @@
+body, html {
+    margin: 0;
+    padding: 0; 
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: georgia;
+    background-color:rgba(188, 185, 161, 0.6);
+}
+
+img, 
+embed, 
+object, 
+ul, 
+div, 
+hr, 
+header, 
+section, a {
+    max-width: 100%;
+}
+
+hr {
+    border-color:chocolate;
+    border-width: thick;
+}
+
+header,section , footer {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: fantasy;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+    min-height: 50px;
+    max-width: 100%;
+    transition: min-height 0.3s;
+    margin: auto;
+}
+
+.header_inner {
+    max-width: 100%;
+    margin-left: auto;
+    display: flex;
+}
+
+.header_logo {
+    width: 90px;
+    height: 90px;
+    vertical-align:top;
+    margin-right: auto;
+}
+
+.titles {
+    min-width:50%;
+}
+
+.header_title {
+    border-radius: 20px;
+    color: white;
+    background-color:#0099cc;
+    font-size: 5em;
+    text-align: center;
+}
+
+.subHeader_title {
+    font-weight: bold;
+    font-size: 2em;
+    color:black;
+    text-align: right;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+    margin: auto;
+ 
+}
+
+.profile_pic{
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.profile {
+    box-sizing: border-box;
+    border-radius: 20px;
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+}
+
+.info {
+    width: 75%;
+    font-size: 18px;
+}
+
+/*featured works section*/
+
+.featured_works {
+    width: 100%;
+    margin: auto;
+}
+
+#featured_title {
+    font-size: 3em;
+    color: #7d97ad;  
+}
+
+.apps {
+    width:100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app_box{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%; 
+}
+
+.app {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #0099cc; 
+    border-radius: 20px; 
+    padding: 0;
+    cursor: pointer;
+    background-color: aliceblue
+}
+
+.app_title {
+    font-size: 2em;
+}
+
+.app_text {
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+.footer {
+    text-align: center;
+    padding: 0;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    font-size: 1em;
+}
+
+li {
+    min-width: 50px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color:#f8eac4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    margin: 1em; 
+}
+
+#fooP {
+    text-decoration: underline;
+    font-size: 22px;
+    color: #7d97ad;
+}

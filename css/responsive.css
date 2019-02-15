@@ -1,0 +1,63 @@
+/*
+ *
+ * Responsive
+ *
+ */
+
+@media screen and (max-width: 500px) {
+  .header_logo {
+    width: 50px;
+    height: 50px;
+  }
+  #featured_title, .header_title {
+    font-size: 24px; 
+  }
+  .subHeader_title {
+    font-size: 16px; 
+  }
+  .app {
+      width: 100px;
+      height: 100px;
+      margin: 2px;
+  }
+  
+  .app_title {
+     font-size: 22px;   
+  }
+  
+  .app_text {
+    font-size: 10px;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .header_logo {
+    width: 65px;
+    height: 65px;
+  }
+  #featured_title, .header_title {
+    font-size: 2.5em; 
+  }
+  .subHeader_title {
+    font-size: 1em; 
+  }
+  .app {
+      width: 125px;
+      height: 125px;
+      margin: 2px;
+    }
+   
+  .app_text {
+    font-size: 10px;
+    width: 125px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .header, .profile, .featured_works, .contact_me {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
